@@ -1,12 +1,25 @@
+## macOS
 *.DS_Store
+
+## Node.js
 node_modules/
+
+## Environment
 .env
 .env.*
 !.env.example
+
+## Netlify
 .netlify
+
+## Build
 dist/
 coverage/
+
+## IDEs
 .idea/
 .vscode/
+
+## Logs
 *.log
 *.log.*
