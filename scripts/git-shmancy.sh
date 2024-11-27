@@ -251,10 +251,12 @@ print_header "Done! 🎉"
 
 
 # TODO:
-# - Add option to open in Cursor
-# - Add option to open in GitHub
-# - Add option to open in Bitbucket
-# - Add option to open in GitLab
+# - Add option to see visual diff of changes
+# - Fix the selection prompt and output
+# - Make a more standard commitlog
+# - Add a new "todo" file to track desired changes and push to a todo branch
+
+
 # Fix Bugs:
 # - When no changes are found, it doesn't exit 0
 # - When there are no changes, it still opens the editor
