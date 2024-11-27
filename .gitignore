@@ -1,0 +1,12 @@
+*.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+.netlify
+dist/
+coverage/
+.idea/
+.vscode/
+*.log
+*.log.*
