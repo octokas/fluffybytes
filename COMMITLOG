@@ -1,43 +1,22 @@
-Latest Changes Summary====================Author: Kaska Miskolczi <octokas@gmail.com>Branch: git-shmancyTimestamp: 2024-11-27 11:51:25 -0500Version: No version tag
-Commit Message:
-getting started hashing out the idea
-Changed Files:  [1;31m[KA[m[Kuthor: Kaska Miskolczi <octokas@gmail.com>
-  [1;31m[KD[m[Kate:   Wed Nov 27 11:51:25 2024 -0500
-  [1;31m[KA[m[K	.prettierignore
-  [1;31m[KA[m[K	INDEX
-  [1;31m[KM[m[K	LICENSE
-  [1;31m[KA[m[K	index.sh
-  [1;31m[KM[m[K	reference/README.md
-  [1;31m[KD[m[K	reference/business/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/README.md	reference/core/contribute/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/api/README.md	reference/core/contribute/api/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/api/endpoints.md	reference/core/contribute/api/endpoints.md
-  [1;31m[KR[m[K100	reference/core/getting-started/api/graphql/README.md	reference/core/contribute/api/graphql/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/api/openapi-spec.yaml	reference/core/contribute/api/openapi-spec.yaml
-  [1;31m[KR[m[K100	reference/core/getting-started/api/v1/README.md	reference/core/contribute/api/v1/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/api/v2/README.md	reference/core/contribute/api/v2/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/arch/README.md	reference/core/contribute/arch/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/arch/data-flow.md	reference/core/contribute/arch/data-flow.md
-  [1;31m[KR[m[K100	reference/core/getting-started/arch/high-level-design.md	reference/core/contribute/arch/high-level-design.md
-  [1;31m[KR[m[K100	reference/core/getting-started/arch/security-model.md	reference/core/contribute/arch/security-model.md
-  [1;31m[KR[m[K100	reference/core/getting-started/deploy/README.md	reference/core/contribute/deploy/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/deploy/configuration.md	reference/core/contribute/deploy/configuration.md
-  [1;31m[KR[m[K100	reference/core/getting-started/deploy/setup-guide.md	reference/core/contribute/deploy/setup-guide.md
-  [1;31m[KR[m[K100	reference/core/getting-started/iaac/README.md	reference/core/contribute/iaac/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/local/README.md	reference/core/contribute/local/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/local/common-dependencies.md	reference/core/contribute/local/common-dependencies.md
-  [1;31m[KR[m[K100	reference/core/getting-started/local/freebsd/README.md	reference/core/contribute/local/freebsd/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/local/macos/README.md	reference/core/contribute/local/macos/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/local/ubuntu/README.md	reference/core/contribute/local/ubuntu/README.md
-  [1;31m[KR[m[K100	reference/core/getting-started/prs/code-style.md	reference/core/contribute/prs/code-style.md
-  [1;31m[KR[m[K100	reference/core/getting-started/prs/testing.md	reference/core/contribute/prs/testing.md
-  [1;31m[KD[m[K	reference/core/getting-started/prs/contributing.md
-  [1;31m[KR[m[K100	reference/business/legal/privacy-policy.md	reference/legal/privacy-policy.md
-  [1;31m[KR[m[K100	reference/business/legal/terms-of-service.md	reference/legal/terms-of-service.md
-  [1;31m[KR[m[K100	reference/business/marketing/customer-personas.md	reference/marketing/customer-personas.md
-  [1;31m[KR[m[K100	reference/business/marketing/product-overview.md	reference/marketing/product-overview.md
-  [1;31m[KR[m[K100	reference/business/pitch/executive-summary.md	reference/pitch/executive-summary.md
-  [1;31m[KR[m[K100	reference/business/pitch/financial-projections.md	reference/pitch/financial-projections.md
-  [1;31m[KR[m[K100	reference/business/pitch/marketing-analysis.md	reference/pitch/marketing-analysis.md
+2024-03-27  Kaska Miskolczi  <octokas@gmail.com>
 
+        * Initial project structure setup
+        * .prettierignore: Created new file for prettier configuration
+        * INDEX: Added new file for directory structure tracking
+        * LICENSE: Modified Apache 2.0 license with updated copyright
+        * index.sh: Added new script for directory indexing
+        * reference/README.md: Modified documentation structure
 
+        * reference/core/: Reorganized directory structure
+          - Renamed getting-started/ to contribute/
+          - Moved API documentation to contribute/api/
+          - Restructured documentation hierarchy
+
+        * Removed:
+          - reference/business/README.md
+
+        * Relocated:
+          - getting-started/api/ -> contribute/api/
+          - getting-started/api/endpoints.md -> contribute/api/
+          - getting-started/api/graphql/ -> contribute/api/graphql/
+          - getting-started/api/openapi-spec.yaml -> contribute/api/
