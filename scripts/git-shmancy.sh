@@ -263,3 +263,15 @@ commit_summary+=$(git show --name-status $latest_commit | grep -E '^[AMDRC]' | s
 echo -e "$commit_summary\n\n$(cat COMMITLOG)" > COMMITLOG
 
 print_header "Done! 🎉"
+
+
+# TODO:
+# - Add option to open in Cursor
+# - Add option to open in GitHub
+# - Add option to open in Bitbucket
+# - Add option to open in GitLab
+# Fix Bugs:
+# - When no changes are found, it doesn't exit 0
+# - When there are no changes, it still opens the editor
+# - Bad substitution error: ./scripts/git-shmancy.sh:124: bad substitution
+# - Fix this: "To github.com:octokas/fluffybytes.git 03ad7f7..f23588e  feature/run-with-'cursor--'-to-read-from-stdin-(e.g.-'ps-aux-|-grep-code-|-cursor--').-20241127-1203 -> feature/run-with-'cursor--'-to-read-from-stdin-(e.g.-'ps-aux-|-grep-code-|-cursor--').-20241127-1203"
